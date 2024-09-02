@@ -1,0 +1,15 @@
+.btn-enc {
+    background-color: rgb(207, 91, 91);
+    color: white;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5) ;
+    cursor: pointer;
+}
+.btn-enc:hover{
+    background-color: white;
+    color: rgb(207, 91, 91);
+
+}

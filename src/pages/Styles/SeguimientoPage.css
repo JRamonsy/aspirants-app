@@ -1,0 +1,75 @@
+.container-seguimiento {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.section-btns {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed; /* Asegura que las columnas tengan el mismo ancho */
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 3px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; /* Esconde el contenido que excede el ancho de la columna */
+    text-overflow: ellipsis; /* Añade puntos suspensivos (...) al contenido que no cabe */
+}
+
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.header-seguimiento {
+    background-color: red;
+    color: white;
+
+    font-weight: bold;
+}
+
+.title-seguimiento {
+    font-size: 5vh;
+}
+
+.number-column {
+    width: 30px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.wide-column {
+    min-width: 150px;
+}
+
+.date-column {
+    width: 80px;
+}
+
+.textarea {
+    width: 50vh;
+    height: 5vh;
+}
+
+.btn-enc-1 {
+    background-color: rgb(118, 217, 103);
+    color: white;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5) ;
+    cursor: pointer;
+}
+.btn-enc-1:hover{
+    background-color: white;
+    color: rgb(118, 217, 103);
+
+}

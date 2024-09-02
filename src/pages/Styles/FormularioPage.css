@@ -1,0 +1,96 @@
+.form-close {
+  transform: scale(0);
+}
+
+.container-form {
+  position: fixed;
+
+  width: 100%;
+
+  background-color: #0002;
+  backdrop-filter: blur(3px);
+
+  display: grid;
+  place-content: center;
+  transition: transform 150ms ease;
+}
+
+.form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .form-exit{
+    color: red;
+    position: absolute;
+    font-size: 1.5rem;
+    font-weight: 700;
+    top: .8em;
+    right: 1em;
+    cursor: pointer;
+  }
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  .section {
+    margin-bottom: 20px;
+  }
+  .section label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  .section input[type="text"],
+  .section input[type="email"],
+  .section input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .section-2-flex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .div-inputs {
+    margin: 10px;
+  }
+
+  .section-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-save {
+    background-color: rgb(207, 91, 91);
+    color: white;
+    padding: 2px 4px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 2px 4px 4px 1px rgba(0,0,0,0.5) ;
+    cursor: pointer;
+}
+.btn-save:hover{
+    background-color: white;
+    color: rgb(207, 91, 91);
+
+}
+  
+  #programaInteres, #estatus {
+    margin: 2px;
+  }
+
+  #date, #asisitio {
+    margin: 2px;
+  }
